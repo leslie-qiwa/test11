@@ -18,25 +18,28 @@ menus:
       url: "#contact"
       weight: 3
 params:
-  tagline: "My Work, My Story — A Portfolio for the Curious Mind"
-  heroTitle: "test9"
-  ctaText: "Get Started"
+  tagline: My Work, My Story — A Portfolio for the Curious Mind
+  heroTitle: test9
+  ctaText: Get Started
   ctaUrl: "#contact"
-  description: "A professional portfolio and blog built for students and educators — exploring ideas, sharing work, and telling the story behind the craft."
-  seoDescription: "Explore a portfolio of interactive learning tools and activities, plus honest ed-tech reviews — built for students and educators by someone who works in the classroom."
-  author: "test9"
-  featuresTitle: "What I Do"
-  footerText: "© 2025 test9 — Built for Students & Educators"
-  contactTitle: "Get in Touch"
-  contactSubtitle: "Whether you're a student, educator, or fellow creator — I'd love to connect."
+  description: A professional portfolio and blog built for students and educators
+    — exploring ideas, sharing work, and telling the story behind the craft.
+  featuresTitle: What I Do
+  footerText: © 2025 test9 — Built for Students & Educators
+  contactTitle: Get in Touch
+  contactSubtitle: Whether you're a student, educator, or fellow creator — I'd love to connect.
   contactEmail: ""
   about:
-    title: "About Me"
+    title: About Me
     paragraphs:
-      - "I'm a creator passionate about learning, teaching, and sharing knowledge with the world."
-      - "This site is where my projects, writing, and ideas live — built for students and educators who believe curiosity is the foundation of great work."
+      - I'm a creator passionate about learning, teaching, and sharing knowledge
+        with the world.
+      - This site is where my projects, writing, and ideas live — built for
+        students and educators who believe curiosity is the foundation of great
+        work.
   cta:
-    title: "Ready to explore the work?"
-    subtitle: "Browse the portfolio, read the blog, and reach out whenever you're ready."
+    title: Ready to explore the work?
+    subtitle: Browse the portfolio, read the blog, and reach out whenever you're ready.
     url: "#contact"
-    text: "Get Started"
+    text: Get Started
+  googleAnalyticsId: G-11122233344
