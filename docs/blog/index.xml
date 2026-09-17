@@ -1,9 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on test9</title><link>/blog/</link><description>Recent content in Blog on test9</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Top Ed-Tech Tools I've Tried This Year — Honest Reviews for Educators</title><link>/blog/top-edtech-tools-honest-reviews/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>/blog/top-edtech-tools-honest-reviews/</guid><description>&lt;p&gt;Every year the ed-tech landscape expands. New platforms launch with bold promises, veteran tools ship major updates, and somewhere in the middle of it all, teachers are expected to figure out what&amp;rsquo;s actually worth their time. This post is my honest attempt to help with that.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve spent the past twelve months genuinely using — not just demoing — the tools below in educational contexts. Here&amp;rsquo;s what I found.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="1-canva-for-education--"&gt;1. Canva for Education — ★★★★☆&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;What it promises:&lt;/strong&gt; A visual design platform that makes creating classroom materials, student presentations, and educational graphics accessible to everyone.&lt;/p&gt;</description></item><item><title>Why Most Ed-Tech Fails Teachers (And What the Good Stuff Gets Right)</title><link>/blog/why-most-edtech-fails-teachers/</link><pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate><guid>/blog/why-most-edtech-fails-teachers/</guid><description>&lt;p&gt;There&amp;rsquo;s a running joke among educators: every September brings a new tool that&amp;rsquo;s going to change everything, and every June those same tools are forgotten. Having watched this cycle repeat for years, I&amp;rsquo;ve started to notice the patterns that separate ed-tech that sticks from ed-tech that doesn&amp;rsquo;t.&lt;/p&gt;
-&lt;h2 id="the-problem-isnt-the-technology"&gt;The Problem Isn&amp;rsquo;t the Technology&lt;/h2&gt;
-&lt;p&gt;The tools themselves are rarely the issue. The problem is almost always a mismatch between what a tool was designed to do and the real conditions of a classroom. Ed-tech built by people who haven&amp;rsquo;t spent time in classrooms tends to optimise for demos, not for daily use.&lt;/p&gt;</description></item><item><title>What I Learned Building an Interactive Learning Activity from Scratch</title><link>/blog/building-an-interactive-activity-from-scratch/</link><pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate><guid>/blog/building-an-interactive-activity-from-scratch/</guid><description>&lt;p&gt;Last year I set out to build an interactive learning activity from scratch — no template, no pre-existing framework, just a problem I wanted to solve and a blank page. What followed was one of the most instructive experiences I&amp;rsquo;ve had as both a designer and an educator.&lt;/p&gt;
-&lt;h2 id="starting-with-the-problem-not-the-solution"&gt;Starting with the Problem, Not the Solution&lt;/h2&gt;
-&lt;p&gt;The temptation when building something new is to start with the format. I wanted to resist that. Instead, I spent the first two weeks just observing — watching where students lost focus, where instructions caused confusion, and where engagement was highest.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blog on test9</title>
+		<link>/blog/</link>
+		<description>Recent content in Blog on test9</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Top Ed-Tech Tools I&#39;ve Tried This Year — Honest Reviews for Educators</title>
+				<link>/blog/top-edtech-tools-honest-reviews/</link>
+				<pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>/blog/top-edtech-tools-honest-reviews/</guid>
+				<description>&lt;p&gt;Every year the ed-tech landscape expands. New platforms launch with bold promises, veteran tools ship major updates, and somewhere in the middle of it all, teachers are expected to figure out what&amp;rsquo;s actually worth their time. This post is my honest attempt to help with that.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the past twelve months genuinely using — not just demoing — the tools below in educational contexts. Here&amp;rsquo;s what I found.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-canva-for-education--&#34;&gt;1. Canva for Education — ★★★★☆&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;What it promises:&lt;/strong&gt; A visual design platform that makes creating classroom materials, student presentations, and educational graphics accessible to everyone.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Why Most Ed-Tech Fails Teachers (And What the Good Stuff Gets Right)</title>
+				<link>/blog/why-most-edtech-fails-teachers/</link>
+				<pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>/blog/why-most-edtech-fails-teachers/</guid>
+				<description>&lt;p&gt;There&amp;rsquo;s a running joke among educators: every September brings a new tool that&amp;rsquo;s going to change everything, and every June those same tools are forgotten. Having watched this cycle repeat for years, I&amp;rsquo;ve started to notice the patterns that separate ed-tech that sticks from ed-tech that doesn&amp;rsquo;t.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem-isnt-the-technology&#34;&gt;The Problem Isn&amp;rsquo;t the Technology&lt;/h2&gt;&#xA;&lt;p&gt;The tools themselves are rarely the issue. The problem is almost always a mismatch between what a tool was designed to do and the real conditions of a classroom. Ed-tech built by people who haven&amp;rsquo;t spent time in classrooms tends to optimise for demos, not for daily use.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>What I Learned Building an Interactive Learning Activity from Scratch</title>
+				<link>/blog/building-an-interactive-activity-from-scratch/</link>
+				<pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+				<guid>/blog/building-an-interactive-activity-from-scratch/</guid>
+				<description>&lt;p&gt;Last year I set out to build an interactive learning activity from scratch — no template, no pre-existing framework, just a problem I wanted to solve and a blank page. What followed was one of the most instructive experiences I&amp;rsquo;ve had as both a designer and an educator.&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-with-the-problem-not-the-solution&#34;&gt;Starting with the Problem, Not the Solution&lt;/h2&gt;&#xA;&lt;p&gt;The temptation when building something new is to start with the format. I wanted to resist that. Instead, I spent the first two weeks just observing — watching where students lost focus, where instructions caused confusion, and where engagement was highest.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

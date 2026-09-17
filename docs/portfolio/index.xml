@@ -1,42 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portfolio on test9</title><link>/portfolio/</link><description>Recent content in Portfolio on test9</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Interactive Quiz Builder for Classroom Use</title><link>/portfolio/interactive-quiz-builder/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><guid>/portfolio/interactive-quiz-builder/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This project grew out of a simple frustration: creating engaging quizzes for students was taking far too long with existing tools. I designed and prototyped an interactive quiz builder that lets educators drag question types onto a canvas, customise feedback messages, and export a shareable link in under five minutes.&lt;/p&gt;
-&lt;h2 id="what-it-does"&gt;What It Does&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Supports multiple question formats: multiple choice, true/false, short answer, and image-based prompts&lt;/li&gt;
-&lt;li&gt;Provides instant feedback to students with customisable explanations for each answer&lt;/li&gt;
-&lt;li&gt;Tracks basic completion data so teachers can identify where students are struggling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-i-learned"&gt;What I Learned&lt;/h2&gt;
-&lt;p&gt;Building this taught me as much about instructional design as it did about interface design. Every decision — where to place a button, what language to use in error messages — had a direct impact on whether a teacher would actually use it in their classroom.&lt;/p&gt;</description></item><item><title>Collaborative Learning Activity Pack — Group Thinking Toolkit</title><link>/portfolio/collaborative-learning-activity-pack/</link><pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate><guid>/portfolio/collaborative-learning-activity-pack/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Designed for secondary school classrooms, this activity pack gives teachers a ready-to-run toolkit for structured collaborative learning. It includes facilitated discussion cards, role-assignment frameworks, and reflection prompts that guide students through group tasks without the usual chaos.&lt;/p&gt;
-&lt;h2 id="whats-included"&gt;What&amp;rsquo;s Included&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;12 discussion card sets covering STEM, humanities, and creative subjects&lt;/li&gt;
-&lt;li&gt;A facilitator guide with timing suggestions and differentiation tips&lt;/li&gt;
-&lt;li&gt;Digital versions compatible with Google Slides and Microsoft PowerPoint&lt;/li&gt;
-&lt;li&gt;A student self-assessment rubric aligned to collaborative skills frameworks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="the-thinking-behind-it"&gt;The Thinking Behind It&lt;/h2&gt;
-&lt;p&gt;Most group work fails not because students can&amp;rsquo;t collaborate, but because the structure isn&amp;rsquo;t there to support it. This pack removes the ambiguity — every student knows their role, every group knows the goal, and the teacher has room to observe rather than manage.&lt;/p&gt;</description></item><item><title>Adaptive Digital Flashcard System</title><link>/portfolio/digital-flashcard-system/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>/portfolio/digital-flashcard-system/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This project applied the science of spaced repetition to a simple, distraction-free flashcard interface. Rather than showing cards randomly, the system schedules reviews based on how confidently a student rated their last attempt — surfacing difficult cards more often and familiar ones less frequently.&lt;/p&gt;
-&lt;h2 id="key-features"&gt;Key Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Confidence-based scheduling using a simplified SM-2 spaced repetition algorithm&lt;/li&gt;
-&lt;li&gt;Support for text, image, and audio card types&lt;/li&gt;
-&lt;li&gt;Progress dashboard showing retention rates by topic&lt;/li&gt;
-&lt;li&gt;Offline-first design so students can study without a reliable internet connection&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="why-it-matters"&gt;Why It Matters&lt;/h2&gt;
-&lt;p&gt;Rote memorisation has a reputation problem — and rightfully so when done poorly. This tool aims to rehabilitate flashcard learning by making it smarter, not harder. Students who used it in a six-week pilot reported feeling more confident going into assessments.&lt;/p&gt;</description></item><item><title>Lesson Plan Template Library — Editable Frameworks for Educators</title><link>/portfolio/lesson-plan-template-library/</link><pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate><guid>/portfolio/lesson-plan-template-library/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Good lesson planning is invisible to students and invaluable to teachers. This library gives educators a head start with twenty professionally designed templates, each built around a specific pedagogical model and ready to adapt for any subject or year group.&lt;/p&gt;
-&lt;h2 id="templates-included"&gt;Templates Included&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Direct instruction and modelled learning&lt;/li&gt;
-&lt;li&gt;Inquiry-based and discovery learning&lt;/li&gt;
-&lt;li&gt;Flipped classroom structures&lt;/li&gt;
-&lt;li&gt;Project-based learning (PBL) multi-week arcs&lt;/li&gt;
-&lt;li&gt;Socratic seminar and discussion-based formats&lt;/li&gt;
-&lt;li&gt;Differentiated instruction frameworks for mixed-ability groups&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="design-principles"&gt;Design Principles&lt;/h2&gt;
-&lt;p&gt;Each template was designed with three priorities: clarity for the teacher planning the lesson, flexibility for different subjects and year levels, and usefulness as a reflection document after the lesson is taught.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Portfolio on test9</title>
+		<link>/portfolio/</link>
+		<description>Recent content in Portfolio on test9</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Interactive Quiz Builder for Classroom Use</title>
+				<link>/portfolio/interactive-quiz-builder/</link>
+				<pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>/portfolio/interactive-quiz-builder/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project grew out of a simple frustration: creating engaging quizzes for students was taking far too long with existing tools. I designed and prototyped an interactive quiz builder that lets educators drag question types onto a canvas, customise feedback messages, and export a shareable link in under five minutes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-it-does&#34;&gt;What It Does&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Supports multiple question formats: multiple choice, true/false, short answer, and image-based prompts&lt;/li&gt;&#xA;&lt;li&gt;Provides instant feedback to students with customisable explanations for each answer&lt;/li&gt;&#xA;&lt;li&gt;Tracks basic completion data so teachers can identify where students are struggling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;&#xA;&lt;p&gt;Building this taught me as much about instructional design as it did about interface design. Every decision — where to place a button, what language to use in error messages — had a direct impact on whether a teacher would actually use it in their classroom.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Collaborative Learning Activity Pack — Group Thinking Toolkit</title>
+				<link>/portfolio/collaborative-learning-activity-pack/</link>
+				<pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+				<guid>/portfolio/collaborative-learning-activity-pack/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed for secondary school classrooms, this activity pack gives teachers a ready-to-run toolkit for structured collaborative learning. It includes facilitated discussion cards, role-assignment frameworks, and reflection prompts that guide students through group tasks without the usual chaos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-included&#34;&gt;What&amp;rsquo;s Included&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;12 discussion card sets covering STEM, humanities, and creative subjects&lt;/li&gt;&#xA;&lt;li&gt;A facilitator guide with timing suggestions and differentiation tips&lt;/li&gt;&#xA;&lt;li&gt;Digital versions compatible with Google Slides and Microsoft PowerPoint&lt;/li&gt;&#xA;&lt;li&gt;A student self-assessment rubric aligned to collaborative skills frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-thinking-behind-it&#34;&gt;The Thinking Behind It&lt;/h2&gt;&#xA;&lt;p&gt;Most group work fails not because students can&amp;rsquo;t collaborate, but because the structure isn&amp;rsquo;t there to support it. This pack removes the ambiguity — every student knows their role, every group knows the goal, and the teacher has room to observe rather than manage.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Adaptive Digital Flashcard System</title>
+				<link>/portfolio/digital-flashcard-system/</link>
+				<pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>/portfolio/digital-flashcard-system/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project applied the science of spaced repetition to a simple, distraction-free flashcard interface. Rather than showing cards randomly, the system schedules reviews based on how confidently a student rated their last attempt — surfacing difficult cards more often and familiar ones less frequently.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Confidence-based scheduling using a simplified SM-2 spaced repetition algorithm&lt;/li&gt;&#xA;&lt;li&gt;Support for text, image, and audio card types&lt;/li&gt;&#xA;&lt;li&gt;Progress dashboard showing retention rates by topic&lt;/li&gt;&#xA;&lt;li&gt;Offline-first design so students can study without a reliable internet connection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-it-matters&#34;&gt;Why It Matters&lt;/h2&gt;&#xA;&lt;p&gt;Rote memorisation has a reputation problem — and rightfully so when done poorly. This tool aims to rehabilitate flashcard learning by making it smarter, not harder. Students who used it in a six-week pilot reported feeling more confident going into assessments.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lesson Plan Template Library — Editable Frameworks for Educators</title>
+				<link>/portfolio/lesson-plan-template-library/</link>
+				<pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+				<guid>/portfolio/lesson-plan-template-library/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Good lesson planning is invisible to students and invaluable to teachers. This library gives educators a head start with twenty professionally designed templates, each built around a specific pedagogical model and ready to adapt for any subject or year group.&lt;/p&gt;&#xA;&lt;h2 id=&#34;templates-included&#34;&gt;Templates Included&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Direct instruction and modelled learning&lt;/li&gt;&#xA;&lt;li&gt;Inquiry-based and discovery learning&lt;/li&gt;&#xA;&lt;li&gt;Flipped classroom structures&lt;/li&gt;&#xA;&lt;li&gt;Project-based learning (PBL) multi-week arcs&lt;/li&gt;&#xA;&lt;li&gt;Socratic seminar and discussion-based formats&lt;/li&gt;&#xA;&lt;li&gt;Differentiated instruction frameworks for mixed-ability groups&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;design-principles&#34;&gt;Design Principles&lt;/h2&gt;&#xA;&lt;p&gt;Each template was designed with three priorities: clarity for the teacher planning the lesson, flexibility for different subjects and year levels, and usefulness as a reflection document after the lesson is taught.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
