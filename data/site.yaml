@@ -1,0 +1,40 @@
+features:
+  - title: "Portfolio"
+    description: "A curated collection of projects that reflect my skills, growth, and creative process across disciplines."
+    icon: "◆"
+  - title: "Blog"
+    description: "Thoughtful writing on education, learning strategies, and the ideas shaping curious minds today."
+    icon: "✍️"
+  - title: "Collaborative Work"
+    description: "Projects and pieces created alongside fellow students, educators, and mentors — because the best ideas are built together."
+    icon: "🤝"
+  - title: "Resources & Guides"
+    description: "Practical tools, templates, and reading lists I've developed and gathered for students and educators."
+    icon: "📚"
+
+rows:
+  - title: "My Portfolio"
+    paragraphs:
+      - "Every project here represents a challenge embraced and a lesson learned. From research papers to visual designs, the work spans many forms."
+      - "Browse freely — and if something resonates, I'd love to hear about it."
+    emoji: "◆"
+    ctaText: "View Work"
+    ctaUrl: "/portfolio/"
+  - title: "From the Blog"
+    paragraphs:
+      - "Writing helps me think. The blog is where I unpack ideas about education, creativity, and the craft of learning."
+      - "New posts go up regularly — covering everything from study techniques to bigger questions about knowledge and growth."
+    emoji: "✍️"
+    ctaText: "Read Posts"
+    ctaUrl: "/blog/"
+
+testimonials:
+  - quote: "This portfolio does something rare — it shows not just the finished work, but the thinking behind it. Genuinely impressive for a student creator."
+    author: "Dr. Elena Park"
+    role: "Associate Professor of Education"
+  - quote: "I shared this blog with my entire class. The post on collaborative learning was exactly the kind of honest, practical reflection my students needed to read."
+    author: "Marcus Osei"
+    role: "High School Curriculum Designer"
+  - quote: "Clean, clear, and purposeful. This site communicates expertise and curiosity in equal measure — exactly what stands out to hiring committees."
+    author: "Sarah Whitmore"
+    role: "Academic Advisor, University Career Centre"

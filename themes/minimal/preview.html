@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.164.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Studio</title>
+  <meta name="description" content="Creative studio delivering modern websites">
+  <style>:root {
+  --color-primary: #2D6A4F;
+  --color-primary-light: #52B788;
+  --color-primary-dark: #1B4332;
+  --color-accent: #D4A017;
+  --color-accent-light: #F4C842;
+  --color-accent-dark: #A07010;
+  --color-background: #FAFAF8;
+  --color-background-muted: #F0F0EC;
+  --color-surface: #FFFFFF;
+  --color-surface-light: #FFFFFF;
+  --color-surface-dark: #E8E8E4;
+  --color-text: #1A1A18;
+  --color-text-light: #555550;
+  --color-text-dark: #0A0A08;
+  --color-text-deeper: #000000;
+  --color-section-dark: #1B4332;
+  --color-section-footer: #0D2418;
+  --font-heading: 'Georgia', serif;
+  --font-body: system-ui, -apple-system, sans-serif;
+  --border-radius: 4px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-surface-dark);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.site-nav .brand {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.site-nav .nav-links { display: flex; gap: 2rem; list-style: none; }
+.site-nav .nav-links a { color: var(--color-text-light); font-size: 0.95rem; }
+.site-nav .nav-links a:hover { color: var(--color-primary); text-decoration: none; }
+
+.section-hero {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6rem 2rem 5rem;
+  text-align: center;
+}
+.section-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.15;
+  color: var(--color-text-deeper);
+  margin-bottom: 1.5rem;
+}
+.section-hero .tagline {
+  font-size: 1.2rem;
+  color: var(--color-text-light);
+  margin-bottom: 2.5rem;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.btn:hover { background: var(--color-primary-dark); text-decoration: none; color: #fff; }
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  margin-left: 0.75rem;
+}
+.btn-outline:hover { background: var(--color-primary); color: #fff; }
+
+.section {
+  padding: 5rem 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.section h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--color-text-deeper);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--color-primary);
+  display: inline-block;
+}
+.section p { color: var(--color-text-light); max-width: 640px; margin-bottom: 1rem; }
+
+.features-list {
+  list-style: none;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.features-list li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.features-list .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.features-list .text h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.2rem;
+}
+.features-list .text p { font-size: 0.9rem; margin: 0; }
+
+.section-contact {
+  background-color: var(--color-section-dark);
+  color: #fff;
+  padding: 5rem 2rem;
+}
+.section-contact .inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-contact h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--color-accent);
+  display: inline-block;
+  padding-bottom: 0.4rem;
+  color: #fff;
+}
+.section-contact p { color: rgba(255,255,255,0.8); margin-bottom: 2rem; }
+.section-contact .btn { background: var(--color-accent); color: #000; }
+.section-contact .btn:hover { background: var(--color-accent-light); }
+
+.site-footer {
+  background-color: var(--color-section-footer);
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .site-nav .nav-links { display: none; }
+  .section-hero h1 { font-size: 2rem; }
+  .section { padding: 3rem 1.25rem; }
+}
+</style>
+  
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="/" class="brand">Acme Studio</a>
+    <ul class="nav-links">
+      
+    </ul>
+  </nav>
+
+  
+<section id="hero" class="section-hero">
+  <h1>Build something people love</h1>
+  <p class="tagline">We craft digital experiences that inspire</p>
+  <div>
+    <a href="#contact" class="btn">Get Started</a>
+    
+  </div>
+</section>
+
+
+
+
+
+<section id="features" class="section">
+  <h2>What We Do</h2>
+  <ul class="features-list">
+    
+    <li>
+      <div class="icon">✦</div>
+      <div class="text">
+        <h3>Web Design</h3>
+        <p>Beautiful, fast websites tailored to your brand.</p>
+      </div>
+    </li>
+    
+    <li>
+      <div class="icon">◆</div>
+      <div class="text">
+        <h3>Development</h3>
+        <p>Clean, maintainable code that scales with you.</p>
+      </div>
+    </li>
+    
+    <li>
+      <div class="icon">●</div>
+      <div class="text">
+        <h3>Strategy</h3>
+        <p>Thoughtful planning that drives real results.</p>
+      </div>
+    </li>
+    
+  </ul>
+</section>
+
+
+
+<section id="contact" class="section-contact">
+  <div class="inner">
+    <h2>Let&#39;s Work Together</h2>
+    <p>Tell us about your project.</p>
+    
+    <a href="mailto:hello@example.com" class="btn">hello@example.com</a>
+    
+  </div>
+</section>
+
+
+
+  <footer class="site-footer">
+  <p>© 2026 Acme Studio</p>
+</footer>
+
+</body>
+</html>

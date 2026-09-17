@@ -1,0 +1,9 @@
+<section id="hero" class="section-hero{{ if .Site.Params.heroImage }} has-hero-image{{ end }}">
+  {{ if .Site.Params.heroImage }}<img src="{{ .Site.Params.heroImage }}" alt="{{ .Site.Title }}" class="hero-image">{{ end }}
+  <h1>{{ .Site.Params.heroTitle | default .Site.Title }}</h1>
+  <p class="tagline">{{ .Site.Params.tagline | default "Welcome to my site" }}</p>
+  <div>
+    <a href="{{ .Site.Params.ctaUrl | default "#contact" }}" class="btn">{{ .Site.Params.ctaText | default "Get in touch" }}</a>
+    {{ if .Site.Params.secondaryCtaUrl }}<a href="{{ .Site.Params.secondaryCtaUrl }}" class="btn btn-outline">{{ .Site.Params.secondaryCtaText | default "Learn more" }}</a>{{ end }}
+  </div>
+</section>

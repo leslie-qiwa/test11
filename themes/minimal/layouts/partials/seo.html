@@ -1,0 +1,29 @@
+{{/* Open Graph */}}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ .Site.Params.seoDescription | default .Site.Params.description | default .Site.Title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ if .Site.Params.ogImage }}<meta property="og:image" content="{{ .Site.Params.ogImage | absURL }}">{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ .Site.Params.seoDescription | default .Site.Params.description | default .Site.Title }}">
+{{ if .Site.Params.ogImage }}<meta name="twitter:image" content="{{ .Site.Params.ogImage | absURL }}">{{ end }}
+{{ if .Site.Params.twitterHandle }}<meta name="twitter:site" content="{{ .Site.Params.twitterHandle }}">{{ end }}
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+{{/* JSON-LD WebSite schema */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ .Site.Title | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
+  "description": {{ (.Site.Params.seoDescription | default .Site.Params.description | default .Site.Title) | jsonify }}{{ if .Site.Params.author }},
+  "author": {
+    "@type": "Organization",
+    "name": {{ .Site.Params.author | jsonify }}
+  }{{ end }}
+}
+</script>
