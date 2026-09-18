@@ -44,3 +44,5 @@ params:
     text: Get Started
   googleAnalyticsId: G-11122233344
   seoDescription: test11 website
+  sameAs:
+    - https://leslie-qiwa.github.io/test8
